@@ -8,7 +8,7 @@
 
   <Identity
     Name="e0665d75-650b-43a1-9b55-b0216958692d"
-    Publisher="CN=Michal"
+    Publisher="CN=Michał Łeptuch"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="e0665d75-650b-43a1-9b55-b0216958692d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>

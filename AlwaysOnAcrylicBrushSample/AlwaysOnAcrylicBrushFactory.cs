@@ -62,7 +62,7 @@ namespace AlwaysOnAcrylicBrushSample
       colorBlendEffect.Background = luminosityBlendEffect;
       colorBlendEffect.Foreground = tintColorEffect;
 
-      ////Noise
+      ////Noise image
       var noiseEffectSourceParameter = new CompositionEffectSourceParameter("Noise");
 
       var imagesurface = LoadedImageSurface.StartLoadFromUri(new Uri("ms-appx:///Images/NoiseAsset_256X256_PNG.png"));

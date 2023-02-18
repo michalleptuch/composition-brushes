@@ -13,7 +13,7 @@ namespace AlwaysOnAcrylicBrushSample
   public class AlwaysOnAcrylicBrush : XamlCompositionBrushBase
   {
     public static readonly DependencyProperty TintColorProperty =
-      DependencyProperty.Register("TintColor", typeof(Color), typeof(AlwaysOnAcrylicBrush), new PropertyMetadata(Color.FromArgb(204, 255, 255, 255)));
+      DependencyProperty.Register("TintColor", typeof(Color), typeof(AlwaysOnAcrylicBrush), new PropertyMetadata(Color.FromArgb(255, 255, 255, 255)));
 
     public static readonly DependencyProperty TintOpacityProperty =
       DependencyProperty.Register("TintOpacity", typeof(double), typeof(AlwaysOnAcrylicBrush), new PropertyMetadata(1.0));
@@ -22,7 +22,7 @@ namespace AlwaysOnAcrylicBrushSample
       DependencyProperty.Register("TintLuminosityOpacity", typeof(double?), typeof(AlwaysOnAcrylicBrush), new PropertyMetadata(null));
 
     public static new readonly DependencyProperty FallbackColorProperty =
-      DependencyProperty.Register("FallbackColor", typeof(Color), typeof(AlwaysOnAcrylicBrush), new PropertyMetadata(Color.FromArgb(204, 255, 255, 255)));
+      DependencyProperty.Register("FallbackColor", typeof(Color), typeof(AlwaysOnAcrylicBrush), new PropertyMetadata(Color.FromArgb(255, 255, 255, 255)));
 
     private readonly AlwaysOnAcrylicBrushFactory _factory;
 
