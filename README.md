@@ -1,2 +1,5 @@
-# alwayson-acrylicbrush
-Always-on acrylic brush for UWP and XAML Islands apps
+# Composition Brushes
+
+Small collection of my custom composition brushes for UWP and XAML Islands apps.
+
+![](images/Screenshot.png)
